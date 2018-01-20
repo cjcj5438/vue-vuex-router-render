@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <router-link to="/">HelloWorld</router-link>
+    <router-link to="/render01">render01</router-link>
+    <router-link to="/hanshuhuazujian">函数化组建</router-link>
+    <router-link to="/tablesort">表格排序</router-link>
     <router-view/>
   </div>
 </template>
