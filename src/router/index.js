@@ -5,6 +5,8 @@ import HelloWorld from '@/components/HelloWorld'
 import render01 from '../components/render01'
 import hanshuhuazujian from '../components/hanshuhuazujian'
 import tablesort from '../base/tableSort.vue'
+import props from '../components/propsfather'
+import  emitfather from '../components/emitfather'
 
 Vue.use(Router)
 
@@ -30,6 +32,14 @@ export default new Router({
     {
       path: '/tablesort',
       component: tablesort
+    },
+    {
+      path: '/props',
+      component: props
+    },
+    {
+      path: '/emitfather',
+      component: emitfather
     }
   ]
 })
