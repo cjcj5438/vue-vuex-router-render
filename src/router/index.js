@@ -14,6 +14,7 @@ import slot01 from '../components/slot01'
 import recursion from '../components/recursion'
 import slot01Inline from '../components/slot01Inline'
 import asyn from '../components/asyn'
+import vuex1 from '../components/vuex1'
 
 Vue.use(Router);
 const Routers=[
@@ -113,7 +114,11 @@ const Routers=[
         component: (resolve) => require(['../components/about.vue'], resolve)
       }
     ]
-  }
+  },
+  {
+    path: '/vuex1',
+    component: vuex1
+  },
 ];
 const RouterConfig={
   mode: "history",
