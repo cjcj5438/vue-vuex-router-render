@@ -3,6 +3,7 @@
     <h2>我是子组件</h2>
     <h2>从父组件拿到的值{{initCount}}</h2>
     <h2>从父组件拿到的值,后进行修改{{count}}</h2>
+    <!--<h2 :count="count++" v-if="count <110">{{count}}</h2>-->
     <button @click="change">修改父值?</button>
   </div>
 </template>

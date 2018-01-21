@@ -14,7 +14,7 @@
     },
     methods:{
       handleAdd(){
-        // this.count++;
+        this.count++;
         this.$emit('increase',this.count)
       }
     },

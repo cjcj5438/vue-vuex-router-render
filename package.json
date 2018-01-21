@@ -1,11 +1,11 @@
-{
+ {
   "name": "vue-vuex-router-render",
   "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "cjcj5438 <1002931123@qq.com>",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "dev": "webpack-dev-server --open --history-api-fallback --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "build": "node build/build.js"
   },
