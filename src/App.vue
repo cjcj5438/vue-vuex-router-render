@@ -18,8 +18,9 @@
 
     <p>路由模块-route</p>
     <router-link to="/router01">路由</router-link>
-    <p>store Vuex</p>
+    <p>store Vuex-demo</p>
     <router-link to="/vuex1">其他组件拿vuex的值</router-link>
+    <router-link to="/myplug">我的插件</router-link>
     <router-view/>
   </div>
 </template>
