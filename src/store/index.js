@@ -7,10 +7,6 @@ import Vuex from 'vuex';
 // import state from './rootState';
 Vue.use(Vuex);
 const store = new Vuex.Store({
-  // state,
-  // getters,
-  // actions,
-  // mutations
   state: {//保存所有数据的,vuex的约定这里的数据只能读取,不能修改
     count: 1,//不能异步操作时间
     list: [1, 5, 8, 10, 30, 50]
